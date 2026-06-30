@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card{
+            width: 22rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .card img{
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .btn:hover{
+            background-color: #0044cc;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="card">
+
+        <img src="https://cdnv2.moovin.com.br/jorrovi/imagens/produtos/det/tenis-nike-revolution-7-fb2207001fb2208003-839fcf52c9112a195200be3eddad9336.jpg" class="card-img-top" alt="Produto">
+
+        <div class="card-body">
+
+            <h3 class="card-title">Tênis Nike</h3>
+
+            <h4 class="text-success">R$ 279,99</h4>
+
+            <p class="card-text">
+                Tênis confortavel, bonito.
+            </p>
+
+            <a href="#" class="btn btn-primary w-100">Comprar</a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
